@@ -1,0 +1,21 @@
+{
+  "name": "athinavahla.com",
+  "version": "0.1.0",
+  "description": "The life and works of Athina Vahla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dance"
+  ],
+  "author": "olizilla",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "assemble": "~0.4.4"
+  }
+}
