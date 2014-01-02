@@ -1,0 +1,19 @@
+<div class="nav">
+  <a href="about.html" class="about">About</a>
+  <a href="contact.html" class="contact">Contact</a>
+  <a href="projects_current.html" class="projects">Projects</a>
+</div>
+<div>
+  <img src="/img/AV_homepageimage.jpg" alt="AV_homepageimage" width="843" height="180">
+</div>
+<div class="description">
+  {{{page.text}}}
+</div>
+<div class="quotes">
+  {{#each quotes}}
+  <p>
+    <span class="quote">“{{quote}}”</span>
+    <span class="quoteInfo">{{info}}</span>
+  </p>
+  {{/each}}
+</div>
