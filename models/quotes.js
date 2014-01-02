@@ -2,6 +2,7 @@ var keystone = require("keystone")
 var Types = keystone.Field.Types
 
 var Quote = new keystone.List('Quote', {
+  map: { name: 'info' },
   defaultSort: '-createdAt'
 })
 

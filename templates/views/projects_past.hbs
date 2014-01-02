@@ -1,0 +1,18 @@
+<div class="nav">
+  <a href="about" class="about">About</a>
+  <a href="contact" class="contact">Contact</a>
+  <a href="projects_current" class="projects selected">Projects<span class="projectCatagory">_past</span></a>
+</div>
+<div class="projectList">
+  <ul>
+    {{#each projects}}
+    <li><a href="#{{slug}}">{{title}}</a></li>
+    {{/each}}
+  </ul>
+  <a id="toPast" href="/projects_current">go to &gt;&gt; current projects</a>
+</div>
+<div class="description">
+  {{#each projects}}
+    {{> project}}
+  {{/each}}
+</div>
