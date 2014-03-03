@@ -9,6 +9,7 @@ module.exports = function (req, res) {
     Project.model.find()
       .where('current').equals(true)
       .where('published').equals(true)
+      .populate('photos')
   )
 
   view.render("projects_current")

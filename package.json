@@ -2,8 +2,8 @@
   "name": "athinavahla-keystone",
   "version": "0.0.1",
   "dependencies": {
-    "keystone": "latest",
-    "underscore": "latest",
+    "keystone": "~0.2.6",
+    "underscore": "~1.6.0",
     "express3-handlebars": "~0.5.0",
     "async": "~0.2.9"
   },

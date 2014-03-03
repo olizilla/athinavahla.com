@@ -54,7 +54,7 @@ div.nav {
   font-size: 1.3em;
   text-align: left;
   margin-bottom:0;
-  height:19px;
+  height:20px;
   overflow-y: hidden;
 }
 
@@ -132,7 +132,7 @@ div.projectList ul,  #toPast, #toCurrent{
   padding-bottom: 1em;
 }
 
-.projects .photo {
+.project .photo {
   float:left;
   margin-bottom:60px;
 }

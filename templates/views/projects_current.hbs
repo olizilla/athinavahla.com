@@ -4,11 +4,7 @@
   <a href="projects_past" class="projects selected">Projects<span class="projectCatagory">_current</span></a>
 </div>
 <div class="projectList">
-  <ul>
-    {{#each projects}}
-    <li><a href="#{{slug}}">{{title}}</a></li>
-    {{/each}}
-  </ul>
+  {{> projectNav}}
   <a id="toPast" href="projects_past">go to &gt;&gt; past projects</a>
 </div>
 <div class="description">

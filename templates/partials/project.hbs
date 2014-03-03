@@ -1,7 +1,7 @@
 <div class="project">
   {{#each photos}}
-    <div class="photo {{#unless @first}}hide{{/unless}}">
-      <img src="{{url}}" alt="strand-02" width="288" height="275">
+    <div class="photo{{#unless @first}} hide{{/unless}}">
+      <img src="/photos/{{file.filename}}" alt="{{title}}" title="{{title}}" width="288" height="275">
       <div class="photoInfo">
         {{#if credit}}
           <span class="credit">Photo: {{credit}}</span>
