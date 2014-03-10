@@ -31,8 +31,9 @@ var routes = {
 exports = module.exports = function(app) {
 
   app.get('/', routes.views.index);
-  app.get('/about(.html)?', routes.views.about);
-  app.get('/contact(.html)?', routes.views.contact);
+  app.get('/about(.html)?', routes.views.page('about'));
+  app.get('/contact(.html)?', routes.views.page('contact'));
+  app.get('/teaching(.html)?', routes.views.page('teaching'));
   app.get('/projects_current(.html)?', routes.views.projects_current);
   app.get('/projects_past(.html)?', routes.views.projects_past);
 }
