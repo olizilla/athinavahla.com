@@ -27,4 +27,6 @@ require('./models');
 
 keystone.set('routes', require('./routes'));
 
+process.title = 'athinavahla'
+
 keystone.start();
