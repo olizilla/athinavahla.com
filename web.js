@@ -14,7 +14,7 @@ keystone.init({
   'view engine': 'hbs',
 
   'auto update': true,
-  'mongo': 'mongodb://localhost/athinavahla',
+  'mongo': process.env.MONGO_URI || 'mongodb://localhost/athinavahla',
 
   'session': false,
   'auth': true,
