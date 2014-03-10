@@ -10,6 +10,7 @@ module.exports = function (req, res) {
       .where('current').equals(true)
       .where('published').equals(true)
       .populate('photos')
+      .sort('+createdAt')
   )
 
   view.render("projects_current")
