@@ -16,7 +16,7 @@ keystone.init({
   'auto update': true,
   'mongo': 'mongodb://localhost/athinavahla',
 
-  'session': true,
+  'session': false,
   'auth': true,
   'user model': 'User',
   'cookie secret': 'dont tell anyone'
